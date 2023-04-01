@@ -1,29 +1,43 @@
-# arquivo-bancario
+# Gerador de Arquivos Bancários
 
-## Project setup
+## Setup do projeto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compila com hot reload para desenvolvimento
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compila e minifica para produção
 ```
 npm run build
 ```
 
-### Run your unit tests
+### Compila com electron com hot reload para desenvolvimento
+```
+npm run electron:serve
+```
+
+### Compila e minifica com Electron para produção
+```
+npm run electron:build
+```
+
+### Para rodar seus testes unitários
 ```
 npm run test:unit
 ```
 
-### Lints and fixes files
+### Passa o Lint e repara arquivos
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Customizar a Configuração
+Veja [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Nota
+Você precisa ter o Node versão 16.16.0 instalado, para que possa ser *buildado* com o Electron 22x.
+Pode ser necessário fazer um *downgrade* da versão do seu Node caso você queira usar uma versão do Electron diferente da que foi usada neste projeto (consulte [Configuration Reference](https://www.electronjs.org/pt/blog/electron-22-0) para mais informações).
