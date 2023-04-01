@@ -16,3 +16,9 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style>
+.home {
+  text-align: center;
+}
+</style>

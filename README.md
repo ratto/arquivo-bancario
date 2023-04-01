@@ -36,8 +36,8 @@ npm run lint
 ```
 
 ### Customizar a Configuração
-Veja [Configuration Reference](https://cli.vuejs.org/config/).
+Veja a [Referência de Configurações](https://cli.vuejs.org/config/).
 
 ### Nota
 Você precisa ter o Node versão 16.16.0 instalado, para que possa ser *buildado* com o Electron 22x.
-Pode ser necessário fazer um *downgrade* da versão do seu Node caso você queira usar uma versão do Electron diferente da que foi usada neste projeto (consulte [Configuration Reference](https://www.electronjs.org/pt/blog/electron-22-0) para mais informações).
+Pode ser necessário fazer um *downgrade* da versão do seu Node caso você queira usar uma versão do Electron diferente da que foi usada neste projeto (consulte os [detalhes sobre esta versão do Electron](https://www.electronjs.org/pt/blog/electron-22-0) para mais informações).
