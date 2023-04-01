@@ -1,5 +1,6 @@
 {
   "name": "arquivo-bancario",
+  "title": "Gerador de Arquivos Bancários",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,6 +15,9 @@
   },
   "main": "background.js",
   "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^4.6.2",
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.6.5",
     "electron": "^22.3.5",
     "file-system": "^2.2.2",
